@@ -52,7 +52,7 @@ public class Login extends javax.swing.JFrame {
                 tiempo = new Timer(segundos, new BarraProgreso());
                 tiempo.start();
             }else{
-                JOptionPane.showMessageDialog(null, "Correo o la Contraseña incorrecta");
+                JOptionPane.showMessageDialog(null, "Correo o la Contraseña incorrecta.");
             }
         }
     }
